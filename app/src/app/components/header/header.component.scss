@@ -1,0 +1,24 @@
+ion-button.not-selected {
+    --color: var(--ion-color-light);
+}
+
+ion-button.selected {
+    --background: rgba(254, 254, 254, 0.3);
+    --color: var(--ion-color-light);
+}
+
+ion-icon {
+    color: var(--ion-color-light);
+}
+
+ion-button.padding-right {
+    padding-right: 5%;
+}
+
+ion-thumbnail[logo] {
+    width: auto;
+
+    ion-img {
+        width: 200px;
+    }
+}
